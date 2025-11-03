@@ -33,8 +33,8 @@ function App() {
         <h2>Sobre mí</h2>
         <p>
           Me dedico a crear sitios web modernos, responsivos y fáciles de usar.
-Disfruto convertir ideas en proyectos digitales que se vean bien y funcionen de verdad.
-Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien está detrás y ofrezca una buena experiencia a quien lo visita.
+          Disfruto convertir ideas en proyectos digitales que se vean bien y funcionen de verdad.
+          Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien está detrás y ofrezca una buena experiencia a quien lo visita.
         </p>
       </section>
 
@@ -43,6 +43,7 @@ Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien est
         <div className="card-container">
           <a href="https://ejemplo-tripscout.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
             <div className="project-card">
+              <img src="/tripocout.png" alt="TripScout" className="card-image" />
               <h3>TRIP SCOUT</h3>
               <p>App que busca incentivar el turismo salvadoreño.</p>
             </div>
@@ -50,6 +51,7 @@ Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien est
 
           <a href="https://github.com/Chris85234/becaSpot2.git" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
             <div className="project-card">
+              <img src="/becaspot.png" alt="BecaSpot" className="card-image" />
               <h3>BECASPOT</h3>
               <p>App que busca ayudar a los estudiantes a encontrar becas, pasantías y voluntariados.</p>
             </div>
@@ -57,6 +59,7 @@ Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien est
 
           <a href="https://github.com/ArianaSaenz/FrontEnd-Yumfull.git" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
             <div className="project-card">
+              <img src="/yummy.png" alt="Yumfull" className="card-image" />
               <h3>YUMFULL</h3>
               <p>App que busca fomentar una dieta saludable con ingredientes básicos.</p>
             </div>
@@ -64,6 +67,7 @@ Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien est
 
           <a href="https://ejemplo-canvart.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
             <div className="project-card">
+              <img src="/canvart.png" alt="CanvArt" className="card-image" />
               <h3>CanvArt</h3>
               <p>Voluntariado que ayuda a estudiantes de media a aprender sobre diseño en Canva.</p>
             </div>
@@ -71,15 +75,11 @@ Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien est
 
           <a href="https://ejemplo-nose.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
             <div className="project-card">
-              <h3>No sé</h3>
-              <p>App sobre turismo</p>
+              <img src="/superate.png" alt="No sé" className="card-image" />
+              <h3>Futuro Proyecto</h3>
+              <p></p>
             </div>
           </a>
-
-          <div className="project-card">
-            <h3>No sé</h3>
-            <p>App sobre turismo</p>
-          </div>
         </div>
       </section>
 
@@ -87,12 +87,14 @@ Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien est
         <h2>Educación</h2>
         <div className="card-container">
           <div className="project-card">
+            <img src="/certs.png" alt="CERTS" className="card-image" />
             <h3>Bachillerato General</h3>
             <p>C.E.R.T.S</p>
-            <h5>Formación básica que me permitió desarrollar muchas hablilidades como lo son la empatía, el trabajo en equipom entre muchas otras.</h5>
+            <h5>Formación básica que me permitió desarrollar muchas hablilidades como lo son la empatía, el trabajo en equipo, entre muchas otras.</h5>
           </div>
 
           <div className="project-card">
+            <img src="/superate.png" alt="Supérate Hilasal" className="card-image" />
             <h3>Programa Empresarial ¡Supérate!</h3>
             <h4>¡Supérate! Hilasal</h4> 
             <h5>
@@ -105,7 +107,7 @@ Me gusta cuidar cada detalle para que cada sitio refleje la esencia de quien est
       </section>
 
       <footer>
-        <p>Eduardo Artiga. Un devorador tremendo 💖🫦💖</p>
+        <p>Eduardo Artiga. 2025 💖</p>
       </footer>
     </>
   );

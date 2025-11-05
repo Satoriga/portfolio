@@ -96,40 +96,19 @@ header {
   margin-top: 2rem;
 }
 
-.special-card {
-  background: linear-gradient(180deg, #fff 60%, #f7e4f7);
-  box-shadow: 0 6px 15px rgba(250, 247, 250, 0.3);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
+/* === Estilo unificado para todas las cards === */
 
-.special-card:hover {
-  transform: translateY(-6px) scale(1.03);
-}
-
-.special-card h3 {
-  color: #751979;
-}
-
-.special-card h4 {
-  color: #9e5da0;
-  font-weight: 600;
-}
-
-.special-card h5 {
-  color: #333;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-.project-card {
-  background-color: #fff;
+.project-card,
+.special-card,
+.cert-card {
   border: none;
+  background: linear-gradient(180deg, #ffffff 60%, #f5dcf8);
+  box-shadow: 0 6px 15px rgba(176, 106, 179, 0.3);
   border-radius: 12px;
   padding: 1.5rem;
   width: 250px;
   height: 320px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -138,11 +117,36 @@ header {
   overflow: hidden;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(252, 249, 251, 0.3);
+.project-card:hover,
+.special-card:hover,
+.cert-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 8px 20px rgba(176, 106, 179, 0.4);
 }
 
+.project-card h3,
+.special-card h3,
+.cert-card h3 {
+  color: #751979;
+  font-weight: 700;
+}
+
+.project-card h4,
+.special-card h4,
+.cert-card h4 {
+  color: #9e5da0;
+  font-weight: 600;
+}
+
+.project-card h5,
+.special-card h5,
+.cert-card h5 {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Imagen dentro de las cards */
 .card-image {
   width: 80px;
   height: 80px;
@@ -157,18 +161,7 @@ header {
   transform: scale(1.05);
 }
 
-.project-card h3 {
-  margin-top: 0.5rem;
-  color: #660b69;
-}
-
-.project-card p,
-.project-card h4,
-.project-card h5 {
-  color: #444;
-  text-align: center;
-  margin: 0.3rem 0;
-}
+/* === Fin de cards === */
 
 footer {
   text-align: center;
@@ -206,33 +199,4 @@ footer {
 @keyframes moveStars {
   0% { transform: translateY(0); }
   100% { transform: translateY(-100px); }
-}
-
-/* ----- CARD DE CERTIFICACIONES ----- */
-.cert-card {
-  border: none;
-  background: linear-gradient(180deg, #ffffff 60%, #f5dcf8);
-  box-shadow: 0 6px 15px rgba(176, 106, 179, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.cert-card:hover {
-  transform: translateY(-6px) scale(1.04);
- 
-}
-
-.cert-card h3 {
-  color: #751979;
-  font-weight: 700;
-}
-
-.cert-card h4 {
-  color: #9e5da0;
-  font-weight: 600;
-}
-
-.cert-card h5 {
-  color: #333;
-  font-size: 0.95rem;
-  line-height: 1.4;
 }

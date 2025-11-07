@@ -10,7 +10,7 @@ function App() {
           <p>SALES MANAGER</p>
 
           <a
-            href="/Currículum.pdf"
+            href="Currículum .pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
@@ -101,7 +101,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/canvart.png" alt="CanvArt" className="card-image" />
+              <img src="/Canvart.png" alt="CanvArt" className="card-image" />
             </a>
             <h3>CanvArt</h3>
             <p>
@@ -142,7 +142,7 @@ function App() {
           </div>
 
           <div className="project-card cert-card">
-            <img src="/certifications.png" alt="Certificatio" className="card-image" />
+            <img src="/certifications.png" alt="Certificación" className="card-image" />
             <h3>Certificaciones</h3>
             <h4>Formación Complementaria</h4>
             <h5>

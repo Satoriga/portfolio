@@ -10,7 +10,7 @@ function App() {
           <p>SALES MANAGER</p>
 
           <a
-            href="/Curriculum-Marketing-2.4.pdf"
+            href="/Currículum.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
@@ -39,13 +39,15 @@ function App() {
 
       <section id="about" className="section">
         <h2>Sobre mí</h2>
-        <p>
-          Me dedico a crear sitios web modernos, responsivos y fáciles de usar.
-          Disfruto convertir ideas en proyectos digitales que se vean bien y
-          funcionen de verdad. Me gusta cuidar cada detalle para que cada sitio
-          refleje la esencia de quien está detrás y ofrezca una buena
-          experiencia a quien lo visita.
-        </p>
+        <div className="about-card">
+          <p>
+            Me dedico a crear sitios web modernos, responsivos y fáciles de usar.
+            Disfruto convertir ideas en proyectos digitales que se vean bien y
+            funcionen de verdad. Me gusta cuidar cada detalle para que cada sitio
+            refleje la esencia de quien está detrás y ofrezca una buena experiencia
+            a quien lo visita.
+          </p>
+        </div>
       </section>
 
       <section id="projects" className="section">
@@ -153,7 +155,7 @@ function App() {
       </section>
 
       <footer>
-        <p>Eduardo Artiga. 2025 💖</p>
+        <p>®Eduardo Artiga. 2025 💖</p>
       </footer>
     </>
   );

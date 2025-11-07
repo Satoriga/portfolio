@@ -96,8 +96,6 @@ header {
   margin-top: 2rem;
 }
 
-/* === Estilo unificado para todas las cards === */
-
 .project-card,
 .special-card,
 .cert-card {
@@ -146,7 +144,6 @@ header {
   line-height: 1.4;
 }
 
-/* Imagen dentro de las cards */
 .card-image {
   width: 80px;
   height: 80px;
@@ -160,8 +157,6 @@ header {
 .card-image:hover {
   transform: scale(1.05);
 }
-
-/* === Fin de cards === */
 
 footer {
   text-align: center;
@@ -199,4 +194,28 @@ footer {
 @keyframes moveStars {
   0% { transform: translateY(0); }
   100% { transform: translateY(-100px); }
+}
+
+/* ======== NUEVA CARD ABOUT ========= */
+
+.about-card {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: linear-gradient(180deg, #ffffff 60%, #f5dcf8);
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(176, 106, 179, 0.3);
+  padding: 2.5rem 3rem;
+  text-align: justify;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(176, 106, 179, 0.4);
+}
+
+.about-card p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
 }
